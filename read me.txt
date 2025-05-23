@@ -1,11 +1,11 @@
 ---------------------------------_GitHub link_--------------------------------
-https://github.com/eduard-33/website-demo
+https://github.com/eduard-33/demo
 
 
 
 ----------------website link------------------
 
-https://eduard-33.github.io/website-demo/shop.html
+https://eduard-33.github.io/demo/index.html
 
 
 ------------------------------OG Website-------------------------------------------
