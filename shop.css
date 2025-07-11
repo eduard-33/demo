@@ -151,7 +151,11 @@
     display: none;
   }
 }
-
+@media (max-width: 768px) {
+  .social-icons-fixed {
+    opacity: 0;
+  }
+}
 
 #mobileSidebar {
   margin-top: 105px; /
