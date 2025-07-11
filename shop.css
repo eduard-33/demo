@@ -55,13 +55,15 @@
   font-weight: 500;
 }
 
-.product-card {
-  font-family: Roboto;
-  text-align: center;
-  background: #fff;
-  padding: 10px;
-  border: 1px solid #ddd;
+.product-link {
+  display: block;
+  text-decoration: none;
+  color: inherit; 
 }
+.product-link:hover {
+  cursor: pointer;
+}
+
 
 
 @media (max-width: 767.98px) {
