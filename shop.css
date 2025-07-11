@@ -117,6 +117,32 @@
   padding: 10px;
   border: 1px solid #ddd;
 }
+.collapse-icon {
+  display: inline-block;
+  width: 1em;
+  text-align: center;
+  font-weight: bold;
+  user-select: none;
+  transition: transform 0.3s ease;
+  font-size: 1rem;     
+  color: #555;        
+  line-height: 1;
+}
+
+[data-bs-toggle="collapse"][aria-expanded="true"] .collapse-icon {
+  transform: rotate(45deg);
+  color: #222;        
+}
+
+@media (min-width: 768px) {
+  .collapse-icon {
+    font-size: 1.25rem;  
+    color: #333;        
+  }
+  [data-bs-toggle="collapse"][aria-expanded="true"] .collapse-icon {
+    color: #000;
+  }
+}
 
 @media (max-width: 767.98px) {
   .sidebar-container {
