@@ -237,3 +237,8 @@ footer {
         font-size: 18px;
     }
 }
+@media (max-width: 768px) {
+  .social-icons-fixed {
+    opacity: 0;
+  }
+}
