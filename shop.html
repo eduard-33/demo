@@ -72,13 +72,45 @@
           <span>$180</span>
         </div>
       </div>
-      <div class="divider"></div>
-      <div class="d-flex justify-content-between">
-        <span>Color</span><span>+</span>
+      <button class="d-flex justify-content-between align-items-center btn btn-link p-0 w-100"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#colorCollapseMobile"
+              aria-expanded="false"
+              aria-controls="colorCollapseMobile"
+              style="color:inherit; text-decoration:none; padding:0.5rem 0;">
+        <span>Color</span>
+        <span class="collapse-icon">+</span>
+      </button>
+      <div class="collapse" id="colorCollapseMobile">
+        <div class="mt-2 d-flex flex-wrap gap-2">
+          <span style="width:24px; height:24px; background:red; border-radius:50%; cursor:pointer;" title="Red"></span>
+          <span style="width:24px; height:24px; background:blue; border-radius:50%; cursor:pointer;" title="Blue"></span>
+          <span style="width:24px; height:24px; background:green; border-radius:50%; cursor:pointer;" title="Green"></span>
+          <span style="width:24px; height:24px; background:yellow; border-radius:50%; cursor:pointer;" title="Yellow"></span>
+          <span style="width:24px; height:24px; background:black; border-radius:50%; cursor:pointer;" title="Black"></span>
+        </div>
       </div>
+
       <div class="divider"></div>
-      <div class="d-flex justify-content-between">
-        <span>Size</span><span>+</span>
+
+      <button class="d-flex justify-content-between align-items-center btn btn-link p-0 w-100"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#sizeCollapseMobile"
+              aria-expanded="false"
+              aria-controls="sizeCollapseMobile"
+              style="color:inherit; text-decoration:none; padding:0.5rem 0;">
+        <span>Size</span>
+        <span class="collapse-icon">+</span>
+      </button>
+      <div class="collapse" id="sizeCollapseMobile">
+        <div class="mt-2 d-flex gap-2 flex-wrap">
+          <button type="button" class="btn btn-outline-secondary btn-sm">S</button>
+          <button type="button" class="btn btn-outline-secondary btn-sm">M</button>
+          <button type="button" class="btn btn-outline-secondary btn-sm">L</button>
+          <button type="button" class="btn btn-outline-secondary btn-sm">XL</button>
+        </div>
       </div>
     </div>
   </div>
@@ -107,13 +139,45 @@
             <span>$180</span>
           </div>
         </div>
-        <div class="divider"></div>
-        <div class="d-flex justify-content-between">
-          <span>Color</span><span>+</span>
+        <button class="d-flex justify-content-between align-items-center btn btn-link p-0"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#colorCollapse"
+                aria-expanded="false"
+                aria-controls="colorCollapse"
+                style="color:inherit; text-decoration:none; width: 100%; user-select:none; padding:0.5rem 0;">
+          <span>Color</span>
+          <span class="collapse-icon">+</span>
+        </button>
+        <div class="collapse" id="colorCollapse">
+          <div class="mt-2 d-flex flex-wrap gap-2">
+            <span style="width:24px; height:24px; background:red; border-radius:50%; cursor:pointer;" title="Red"></span>
+            <span style="width:24px; height:24px; background:blue; border-radius:50%; cursor:pointer;" title="Blue"></span>
+            <span style="width:24px; height:24px; background:green; border-radius:50%; cursor:pointer;" title="Green"></span>
+            <span style="width:24px; height:24px; background:yellow; border-radius:50%; cursor:pointer;" title="Yellow"></span>
+            <span style="width:24px; height:24px; background:black; border-radius:50%; cursor:pointer;" title="Black"></span>
+          </div>
         </div>
+  
         <div class="divider"></div>
-        <div class="d-flex justify-content-between">
-          <span>Size</span><span>+</span>
+  
+        <button class="d-flex justify-content-between align-items-center btn btn-link p-0"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#sizeCollapse"
+                aria-expanded="false"
+                aria-controls="sizeCollapse"
+                style="color:inherit; text-decoration:none; width: 100%; user-select:none; padding:0.5rem 0;">
+          <span>Size</span>
+          <span class="collapse-icon">+</span>
+        </button>
+        <div class="collapse" id="sizeCollapse">
+          <div class="mt-2 d-flex gap-2 flex-wrap">
+            <button type="button" class="btn btn-outline-secondary btn-sm">S</button>
+            <button type="button" class="btn btn-outline-secondary btn-sm">M</button>
+            <button type="button" class="btn btn-outline-secondary btn-sm">L</button>
+            <button type="button" class="btn btn-outline-secondary btn-sm">XL</button>
+          </div>
         </div>
       </div>
     </div>
