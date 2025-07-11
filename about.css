@@ -158,14 +158,13 @@ main {
     font-size: 34px; 
     font-weight: 600;
 }
-p{ 
-  font-size: 25px
-}
+
 
 .text-section p {
     line-height: 1.7;
     margin-bottom: 16px;
     color: #ffffff; 
+    font-size: 25px
 }
 
 .image-section {
