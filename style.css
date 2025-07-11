@@ -505,6 +505,11 @@ body {
 .social-icons-fixed a:hover {
   color: #0077ff;
 }
+@media (max-width: 768px) {
+  .social-icons-fixed {
+    opacity: 0;
+  }
+}
 
 /*--------------------------footer-----------*/ 
 .site-footer {
